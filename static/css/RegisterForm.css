@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+body *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url(/static/images/background1.jpg);
+    font-family: 'Nunito', sans-serif;
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    color: white;
+}
+.container {
+    max-width: 100%;
+    height: 300px;
+}
+.logo {
+    margin-top: -60px;
+    margin-bottom: -80px;
+}
+h1 {
+    color: white;
+    font-weight: 900;
+}
+form {
+    background:linear-gradient( rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 2%;
+}
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.form-control {
+    border: none;
+    padding: 10px;
+    background:rgb(72, 72, 72);
+}
+.container div div form .form-group input {
+    border: none;
+    outline: none;
+}
+.checkbox {
+    margin-left: 25px;
+}
+input#submit {
+    margin: 15px 50px 15px 0px;
+    padding: 10px 150px 10px 150px;
+    background-color: red;
+    color: white;
+}
+input#submit:hover {
+    background-color: #e60000;
+    color:rgb(208, 206, 206);
+}

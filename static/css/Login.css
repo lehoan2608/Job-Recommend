@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url(/static/images/background1.jpg);
+}
+.logo{
+    margin-top: -50px;
+    margin-left: -50px;
+    border: 50px;
+    font-size: 50px;
+    color: orangered;
+    font-weight: bold;
+    font-style: italic;
+}
+.form{
+    font-family: 'Nunito', sans-serif;
+    margin-top: -80px;
+    margin-bottom: 0%;
+    padding: 60px 80px 40px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.5) 100%);
+    border: 0px solid black;
+    margin-left: 35%;
+    margin-right: 65%;
+    min-height: 500px;
+    min-width: 450px;
+    display: flex;
+    border-radius: 2%;
+}   
+.inf{
+    height: 50px;
+    width: 300px;
+    border-radius: 7px;
+    background: rgb(72, 72, 72);
+    font-size: 20px;
+    color: black;
+    size: 50px;
+    margin-top: 10px;
+}
+.dangnhap{
+    font-family: 'Nunito', sans-serif;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 7px;
+    font-size: 20px;
+    width: 300px;
+    height: 45px;
+}
+.mk{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(72, 72, 72);
+    font-size: 18px;
+    margin-left: -120px;
+    margin-top: 10px;
+}
+.dangkyngay{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 20px;
+}
